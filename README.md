@@ -168,6 +168,10 @@ Hasaki was used to train and deploy a neural network on an **ESP32-C3** — one 
 → [Full project and source code](https://github.com/AlexRosito67/hasaki-mnist-esp32)  
 → [dev.to writeup](https://dev.to/alexrosito67/i-ran-mnist-on-an-esp32-c3-without-tensorflow-tflite-or-any-ml-runtime-1cjk)
 
+Hasaki was also used to train a regression model on real-world medical data — the Framingham Heart Study dataset — predicting systolic blood pressure from 14 patient vitals. The model (`14,32,16,1`) achieved an RMSE of 10.4 mmHg and exported as an INT8-quantized **8.9 kB** C header, with negligible accuracy loss versus the float model.
+
+→ [dev.to writeup](https://dev.to/alexrosito67/i-trained-a-neural-network-on-real-medical-data-and-fit-it-in-89-kb-of-pure-c-4e40)
+
 ---
 
 ## License
