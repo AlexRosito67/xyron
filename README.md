@@ -68,7 +68,7 @@ No heap allocation. No dependencies. No runtime overhead. If it compiles for you
 | License | Free (non-commercial) | Commercial license |
 
 The Free version is fully functional for learning, prototyping, and non-commercial projects.  
-When your model outgrows two layers or you need INT8 quantization to fit tighter memory constraints — [Hasaki Pro is available here](https://hasaki.lemonsqueezy.com/checkout/buy/dd9388d0-83ee-4005-b30d-1437045215a1).
+When your model outgrows two layers or you need INT8 quantization to fit tighter memory constraints
 
 ---
 
@@ -84,7 +84,7 @@ Download the binary for your platform from the [latest release](https://github.c
 
 Make the binary executable and add it to your `PATH`.
 
-> 💡 **Note on Binary Names:** The examples below use the generic `hasaki` command. If you are using the Free version, your local binary will be named `hasaki_free_xxxx` (or `.exe` on Windows). If you have purchased a [Hasaki Pro license](https://hasaki.lemonsqueezy.com/checkout/buy/dd9388d0-83ee-4005-b30d-1437045215a1), your binary will be named `hasaki_pro_linux` or `hasaki_pro_windows.exe` and will unlock all advanced CLI flags (like Adam optimizer, batch processing, and INT8 quantization).
+> 💡 **Note on Binary Names:** The examples below use the generic `hasaki` command. If you are using the Free version, your local binary will be named `hasaki_free_xxxx` (or `.exe` on Windows).If not, your binary will be named `hasaki_pro_linux` or `hasaki_pro_windows.exe` and will unlock all advanced CLI flags (like Adam optimizer, batch processing, and INT8 quantization).
 
 ### Train an XOR classifier
 
@@ -186,9 +186,7 @@ By using Hasaki Free you agree to its terms. Key conditions:
 - **Redistribution:** allowed free of charge, in unmodified form, with this license included
 - **Modification:** not permitted — Hasaki Free is not open source
 
-If your project grows into a commercial product, or you need to embed Hasaki-generated headers in commercial firmware, a Hasaki Pro commercial license is required.
 
-[Hasaki Pro is available here](https://hasaki.lemonsqueezy.com/checkout/buy/1b6ec0ae-10ec-49dc-8c6f-2af146742a33).
 
 Contact: hasaki.io@proton.me
 
