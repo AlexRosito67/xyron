@@ -44,6 +44,7 @@ No heap allocation. No dependencies. No runtime overhead. If it compiles for you
 - Embedded developers who need inference on MCUs with no room for TensorFlow Lite
 - Engineers prototyping edge AI on cheap, widely available hardware
 - Anyone who needs a trained model deployed as a single C header
+- Anyone deploying regression models (sensor calibration, medical/health estimation) without a Python runtime on-device
 
 ---
 
